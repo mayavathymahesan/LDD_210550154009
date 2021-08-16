@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/d3p2_modprobe/modules.order := {   echo /home/pi/device_drivers/native/hello_module/d3p2_modprobe/add.ko;   echo /home/pi/device_drivers/native/hello_module/d3p2_modprobe/average.ko; :; } | awk '!x[$$0]++' - > /home/pi/device_drivers/native/hello_module/d3p2_modprobe/modules.order

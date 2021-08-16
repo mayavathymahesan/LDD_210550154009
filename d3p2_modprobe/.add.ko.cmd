@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/d3p2_modprobe/add.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/d3p2_modprobe/add.ko /home/pi/device_drivers/native/hello_module/d3p2_modprobe/add.o /home/pi/device_drivers/native/hello_module/d3p2_modprobe/add.mod.o;  true
