@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/d2p2_modparam/modules.order := {   echo /home/pi/device_drivers/native/hello_module/d2p2_modparam/d2p2_modparam.ko; :; } | awk '!x[$$0]++' - > /home/pi/device_drivers/native/hello_module/d2p2_modparam/modules.order
