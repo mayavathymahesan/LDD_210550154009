@@ -1,1 +1,0 @@
-cmd_/home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.ko /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.o /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.mod.o;  true

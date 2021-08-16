@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/hello/hello.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/hello/hello.ko /home/pi/device_drivers/native/hello_module/hello/hello.o /home/pi/device_drivers/native/hello_module/hello/hello.mod.o;  true

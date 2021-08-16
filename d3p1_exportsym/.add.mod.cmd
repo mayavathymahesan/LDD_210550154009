@@ -1,1 +1,0 @@
-cmd_/home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.mod := { echo  /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.o;  echo; } > /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.mod

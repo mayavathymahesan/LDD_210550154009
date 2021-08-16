@@ -1,1 +1,0 @@
-cmd_/home/pi/device_drivers/native/hello_module/d3p1_exportsym/average.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/d3p1_exportsym/average.ko /home/pi/device_drivers/native/hello_module/d3p1_exportsym/average.o /home/pi/device_drivers/native/hello_module/d3p1_exportsym/average.mod.o;  true
