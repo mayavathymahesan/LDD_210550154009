@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/d2p3_modparam/d2p_modparam.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/d2p3_modparam/d2p_modparam.ko /home/pi/device_drivers/native/hello_module/d2p3_modparam/d2p_modparam.o /home/pi/device_drivers/native/hello_module/d2p3_modparam/d2p_modparam.mod.o;  true
