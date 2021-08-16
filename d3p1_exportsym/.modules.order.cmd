@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/d3p1_exportsym/modules.order := {   echo /home/pi/device_drivers/native/hello_module/d3p1_exportsym/add.ko;   echo /home/pi/device_drivers/native/hello_module/d3p1_exportsym/average.ko; :; } | awk '!x[$$0]++' - > /home/pi/device_drivers/native/hello_module/d3p1_exportsym/modules.order
