@@ -103,6 +103,7 @@ ssize_t NAME_write(struct file *filp,const char __user *Ubuff,size_t count,loff_
      unsigned long result;
 
   	result=copy_from_user((char *)Kbuff,(char *)Ubuff,count);
+	printk(KERN_ALERT "\nThe message from user space is ------%s-----\n",Kbuff);
 	return count;
 }
 

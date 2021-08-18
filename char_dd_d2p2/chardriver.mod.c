@@ -32,6 +32,7 @@ __used __section("__versions") = {
 	{ 0xa8881d43, "cdev_alloc" },
 	{ 0x3fd78f3b, "register_chrdev_region" },
 	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x5f754e5a, "memset" },
 	{ 0xae353d77, "arm_copy_from_user" },
 	{ 0x86332725, "__stack_chk_fail" },
 	{ 0x51a910c0, "arm_copy_to_user" },
@@ -43,4 +44,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "5E0CFAD6CF36C530899AD69");
+MODULE_INFO(srcversion, "78CE18BFBA9BB2B82AA90E0");
