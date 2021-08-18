@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/char_dd_d2p3/modules.order := {   echo /home/pi/device_drivers/native/hello_module/char_dd_d2p3/chardriver.ko; :; } | awk '!x[$$0]++' - > /home/pi/device_drivers/native/hello_module/char_dd_d2p3/modules.order
