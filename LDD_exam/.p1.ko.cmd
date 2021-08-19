@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/LDD_exam/p1.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device_drivers/native/hello_module/LDD_exam/p1.ko /home/pi/device_drivers/native/hello_module/LDD_exam/p1.o /home/pi/device_drivers/native/hello_module/LDD_exam/p1.mod.o;  true

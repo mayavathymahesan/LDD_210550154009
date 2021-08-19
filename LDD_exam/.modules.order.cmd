@@ -1,0 +1,1 @@
+cmd_/home/pi/device_drivers/native/hello_module/LDD_exam/modules.order := {   echo /home/pi/device_drivers/native/hello_module/LDD_exam/p1.ko; :; } | awk '!x[$$0]++' - > /home/pi/device_drivers/native/hello_module/LDD_exam/modules.order
